@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    padding: 1rem;
+    gap: 15rem;
+    align-items: center;
+    height: 5rem;
+    background-color: #020203;
+}
+
+header h2{
+    color: white;
+    font-weight: bolder;
+}
+
+
+header .new-movie{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    background-color: #D02027;
+}
+
+input{
+    width: 100rem;
+    height: 2rem;
+}
+
+.main-movies{
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+}
+
+.container-filter{
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    height: 25rem;
+}
+
+label{
+    padding-top: 2rem;
+    color: white;
+}
+
+.gender, .Classification, .Language{
+    width: 11rem;
+    height: 2rem;
+    background-color: #1C1C1C;
+    border: #000000;
+}
+
+option{
+    background-color: #403E3E;
+    border: #000000;
+}
+
+.container-movies{
+    display: flex;
+    padding-top: 5rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 105rem;
+    background-image: url(./img/fundo1.png);
+}      
+
+#filme-card img{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+}
